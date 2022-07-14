@@ -27,6 +27,13 @@
 		F10B520F287F9322007468A5 /* giraffe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F10B5205287F9322007468A5 /* giraffe.mp4 */; };
 		F10B5210287F9322007468A5 /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F10B5206287F9322007468A5 /* lion.mp4 */; };
 		F10B5211287F9322007468A5 /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F10B5207287F9322007468A5 /* gorilla.mp4 */; };
+		F10B5216287F94E9007468A5 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B5215287F94E9007468A5 /* BundleExtension.swift */; };
+		F10B521B287F97B2007468A5 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B521A287F97B2007468A5 /* TabViewController.swift */; };
+		F10B521D287F97E7007468A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B521C287F97E7007468A5 /* HomeViewController.swift */; };
+		F10B521F287F98D2007468A5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B521E287F98D2007468A5 /* MapViewController.swift */; };
+		F10B5222287F99CC007468A5 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B5221287F99CC007468A5 /* VideoListViewController.swift */; };
+		F10B5224287F9A5B007468A5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B5223287F9A5B007468A5 /* MapView.swift */; };
+		F10B5227287F9AB2007468A5 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B5226287F9AB2007468A5 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		F10B5205287F9322007468A5 /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
 		F10B5206287F9322007468A5 /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
 		F10B5207287F9322007468A5 /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
+		F10B5215287F94E9007468A5 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		F10B521A287F97B2007468A5 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		F10B521C287F97E7007468A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F10B521E287F98D2007468A5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F10B5221287F99CC007468A5 /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		F10B5223287F9A5B007468A5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F10B5226287F9AB2007468A5 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +118,10 @@
 		F10B51C3287F85B7007468A5 /* Africa Not SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F10B5214287F93AA007468A5 /* Extensions */,
+				F10B5213287F93A3007468A5 /* Helpers */,
+				F10B5212287F9395007468A5 /* Views */,
+				F10B5217287F9623007468A5 /* Features */,
 				F10B51C4287F85B7007468A5 /* AppDelegate.swift */,
 				F10B51C6287F85B7007468A5 /* SceneDelegate.swift */,
 				F10B51C8287F85B7007468A5 /* ViewController.swift */,
@@ -150,6 +168,73 @@
 				F10B51FF287F9321007468A5 /* zebra.mp4 */,
 			);
 			path = Videos;
+			sourceTree = "<group>";
+		};
+		F10B5212287F9395007468A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F10B5223287F9A5B007468A5 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F10B5213287F93A3007468A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F10B5214287F93AA007468A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F10B5215287F94E9007468A5 /* BundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F10B5217287F9623007468A5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F10B521A287F97B2007468A5 /* TabViewController.swift */,
+				F10B5218287F962D007468A5 /* Home */,
+				F10B5219287F9636007468A5 /* Map */,
+				F10B5220287F99B4007468A5 /* Video List */,
+				F10B5225287F9A94007468A5 /* Gallery */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F10B5218287F962D007468A5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F10B521C287F97E7007468A5 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F10B5219287F9636007468A5 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F10B521E287F98D2007468A5 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F10B5220287F99B4007468A5 /* Video List */ = {
+			isa = PBXGroup;
+			children = (
+				F10B5221287F99CC007468A5 /* VideoListViewController.swift */,
+			);
+			path = "Video List";
+			sourceTree = "<group>";
+		};
+		F10B5225287F9A94007468A5 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				F10B5226287F9AB2007468A5 /* GalleryViewController.swift */,
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +353,14 @@
 			files = (
 				F10B51C9287F85B7007468A5 /* ViewController.swift in Sources */,
 				F10B51C5287F85B7007468A5 /* AppDelegate.swift in Sources */,
+				F10B5222287F99CC007468A5 /* VideoListViewController.swift in Sources */,
 				F10B51C7287F85B7007468A5 /* SceneDelegate.swift in Sources */,
+				F10B521B287F97B2007468A5 /* TabViewController.swift in Sources */,
+				F10B5216287F94E9007468A5 /* BundleExtension.swift in Sources */,
+				F10B521D287F97E7007468A5 /* HomeViewController.swift in Sources */,
+				F10B5227287F9AB2007468A5 /* GalleryViewController.swift in Sources */,
+				F10B5224287F9A5B007468A5 /* MapView.swift in Sources */,
+				F10B521F287F98D2007468A5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
